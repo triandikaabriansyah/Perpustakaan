@@ -75,7 +75,7 @@ class BukuController extends Controller
      */
     public function update(Request $request, $id_buku)
     {
-        $buku = \App\Edit::find($id_buku);
+        $buku = \App\Buku::find($id_buku);
         $buku->update($request->all());
         $request->validate([
             'gambar' => 'nullable',

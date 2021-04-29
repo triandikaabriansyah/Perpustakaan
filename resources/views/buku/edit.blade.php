@@ -41,7 +41,8 @@
     </div>
     <div class="form-group">
         <label for="exampleFormControlFile1">Masukkan gambar</label>
-        <input name="gambar" type="file" class="form-control-file" id="exampleFormControlFile1" value="{{$buku->gambar}}">        
+        <input name="gambar" type="file" class="form-control-file" id="exampleFormControlFile1" value="{{$buku->gambar}}" Required>        
+        <i style="float: left;font-size: 11px;color: red">Gambar harus di isi terlebih dahulu</i>
     </div>
     <button type="submit" class="btn btn-success">Update</button>
     </form>
