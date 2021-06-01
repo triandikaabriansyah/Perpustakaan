@@ -6,7 +6,7 @@ $(".tombol-hapus").on("click", function(e) {
 
     Swal.fire({
         title: "Apakah anda yakin?",
-        text: "Data Siswa akan dihapus!",
+        text: "Data Buku akan dihapus!",
         icon: "warning",
         showCancelButton: true,
         confirmButtonColor: "#3085d6",

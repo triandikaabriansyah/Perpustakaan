@@ -50,7 +50,7 @@
 	<div class="container">
     	<div class="row">
     		@foreach($data_buku as $buku)
-    		<div class="col-md-4">    		
+    		<div class="col-lg-4">    		
 			    <div class="card mb-3">
 			    	<h5 class="card-title mt-2 ml-2">{{$buku->judul}}</h5>
 				  	<img class="card-img-top" src="/img/{{$buku->gambar}}" alt="Card image cap" height="500">
